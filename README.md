@@ -11,7 +11,7 @@ In this example I use Ubuntu Server 16.04 (yes, it's old duh! )
 As always, update first on your console box
 ```
 $ sudo apt-get update
-``
+```
 
 Get the sensors
 ```
