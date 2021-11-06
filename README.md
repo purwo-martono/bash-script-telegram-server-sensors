@@ -17,7 +17,7 @@ $ sudo apt-get update
 
 Get the sensors
 ```
-$ sudo apt-get install sensors
+$ sudo apt-get install lm-sensors
 ```
 
 
