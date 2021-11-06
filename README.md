@@ -1,4 +1,4 @@
-# Bash script to send processors server temperature to telegram
+# Bash script to send processors server temperature to [Telegram](https://web.telegram.org/)
 
 ### Modification of telegram-send from [Konstantin Bogomolov](https://bogomolov.tech/Telegram-notification-on-SSH-login/)
 
