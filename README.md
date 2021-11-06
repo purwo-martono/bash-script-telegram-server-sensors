@@ -1,4 +1,4 @@
-# bash-script-telegram-server-sensors
+# Bash script to send processors server temperature to telegram
 
 ### Modification of telegram-send from [Konstantin Bogomolov](https://bogomolov.tech/Telegram-notification-on-SSH-login/)
 
@@ -8,15 +8,18 @@ This bash script will check your processors server temperature
 
 In this example I use Ubuntu Server 16.04 (yes, it's old duh! )
 
+
 As always, update first on your console box
 ```
 $ sudo apt-get update
 ```
 
+
 Get the sensors
 ```
 $ sudo apt-get install sensors
 ```
+
 
 Create bash script to call sensors and send it to telegram, ofc with [telegram-send](https://github.com/purwo-martono/telegram-send) I mention before 
 ```
@@ -33,6 +36,4 @@ do
 done
 telegram-send "SENSORS YOUR_SERVER $ipAddress$lines")
 ```
-
-
 
